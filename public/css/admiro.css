@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.AdmiroNome {
+    color: #48752C;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lineAdmiro {
+    background-color: #48752C;
+    height: 5px;
+    width: 1500px;
+}
+
+.buttonAdmiro:hover {
+    background-color: #48752C;
+    color: #D9D9D9;
+}
+
+.buttonAdmiro {
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    transition: 0.5s ease;
+    background-color: #D9D9D9;
+    color: #48752C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonsAdmiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}

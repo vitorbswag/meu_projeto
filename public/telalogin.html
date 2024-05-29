@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login - Botania</title>
+    <link rel="stylesheet" href="css/tela.css">
+</head>
+<body>
+    <main>
+        <p>Login</p>
+        <form id="loginForm" method="POST" action="/auth/login">
+            <div class="dados">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            </div>
+            <div class="links">
+                <a href="telacad.html">Não tenho uma conta</a>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

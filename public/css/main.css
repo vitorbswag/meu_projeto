@@ -1,0 +1,153 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+header{
+    margin: 10px;
+}
+
+.pesquisa input {
+    background-color: rgb(206, 206, 206);
+    height: 35px;
+    width: 120vh; 
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+main {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+
+.produtos {
+    background-color: #48752C;
+    height: 220px;
+    width: 190px;
+    margin: 0px 6px;
+    border-radius: 4px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.flor{
+    background-color: rgb(69, 75, 75);
+    height: 150px;
+    width: 150px;
+    margin: 8px;
+}
+
+.flor img{
+    height: 150px;
+    width: 150px;
+}
+
+.detail{
+    background-color: bisque;
+    height: 30px;
+    width: 90px;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* textos p */
+
+.titulos{
+    text-align: center;
+    font-size: large;
+}
+
+.desc{
+    text-align: center;
+}
+
+.preço{
+    text-align: center;
+}
+
+/* Testes */
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+.comprar, .addCarrinho {
+    background-color: #48752C;
+    width: auto;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px auto;
+}
+
+.comprar:hover, 
+.addCarrinho:hover{
+    background-color: #255033;
+
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* style.css */
+#suggestions {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+  }
+  
+  #suggestions .dropdown-item {
+    cursor: pointer;
+    padding: 8px 12px;
+  }
+  
+  #suggestions .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+

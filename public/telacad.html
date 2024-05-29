@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Cadastro - Botania</title>
+  <link rel="stylesheet" href="css/tela.css">
+</head>
+<body>
+
+<main>
+  <p>Cadastro</p>
+  <form id="registerForm" method="POST" action="/auth/register">
+   <div class="dados">
+       <input type="text" id="nome" name="nome" placeholder="Nome" required>
+       <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
+       <input type="email" id="email" name="email" placeholder="Email" required>
+       <input type="password" id="senha" name="senha" placeholder="Senha" required>
+       <input type="password" id="confsenha" name="confsenha" placeholder="Confirmar Senha" required>
+   </div>
+
+   <div class="links">
+    <a href="telalogin.html">Já tenho uma conta</a> 
+   </div>
+  
+   <button type="submit">Criar Conta</button>
+ </form>
+</main>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
